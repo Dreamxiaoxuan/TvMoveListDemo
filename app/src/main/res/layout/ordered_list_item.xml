@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x100"
+    android:layout_margin="@dimen/x10">
+
+    <ImageView
+        android:id="@+id/iv_item_theme_top"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/x50"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/x40"
+        android:scaleType="center"
+        android:src="@drawable/img_theme_move" />
+
+    <com.xiaoxuan.demo.MagicTextView
+        android:id="@+id/tv_item_theme_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/x16"
+        android:layout_toEndOf="@+id/iv_item_theme_top"
+        android:gravity="center|left"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>
